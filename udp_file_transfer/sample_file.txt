@@ -1,6 +1,6 @@
 Hello, World!
 This is a sample text file.
-It is being send over UDP.
+It is being sent over UDP.
 Programming is cool :D!
 
 Some more text here!

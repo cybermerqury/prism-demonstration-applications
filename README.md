@@ -4,12 +4,13 @@ This repository contains three applications used to demonstrate the quantum
 network developed during the PRISM project.
 
 These applications are:
+
 * A UDP and TCP text transfer application
 * A UDP file transfer application
 * UDP video call software
 
 All the applications were developed by Merqury Cybersecurity Ltd using Python 3
-and have their own ReadMe in their respective folder.
+and have their own README in their respective folder.
 
 ## License
 
