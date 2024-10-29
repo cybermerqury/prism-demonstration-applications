@@ -1,16 +1,13 @@
-# Prism Demonstration Applications
+# UDP File Transfer
 
-This repository contains three applications used to demonstrate the quantum
-network developed during the PRISM project.
+This application aims to transfer a file from a client to a server using
+a UDP connection.
 
-These applications are:
+All values for IP addresses, ports and file names are hardcoded in the
+`client_ftp.py` and `server_ftp.py` files.
 
-* A UDP and TCP text transfer application
-* A UDP file transfer application
-* UDP video call software
-
-All the applications were developed by Merqury Cybersecurity Ltd using Python 3
-and have their own README in their respective folder.
+It is suggested that the `server_ftp.py` is run first, since it awaits for a
+client to start sending data.
 
 ## License
 
