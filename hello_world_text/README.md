@@ -1,15 +1,13 @@
-# Prism Demonstration Applications
+# Hello World Text Transfer
 
-This repository contains three applications used to demonstrate the quantum
-network developed during the PRISM project.
+This application aims to periodically send a text message from a client to a
+server using either a UDP or TCP connection.
 
-These applications are:
-* A UDP and TCP text transfer application
-* A UDP file transfer application
-* UDP video call software
+All values for IP addresses and ports, as well as the actual message itself are
+hardcoded in the `client.py` and `server.py` files.
 
-All the applications were developed by Merqury Cybersecurity Ltd using Python 3
-and have their own ReadMe in their respective folder.
+It is suggested that the `server.py` is run first, since it awaits for a
+client to start sending data.
 
 ## License
 
